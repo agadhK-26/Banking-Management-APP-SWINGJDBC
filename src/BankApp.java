@@ -8,10 +8,10 @@ public class BankApp extends JFrame {
     private JButton btnCreate, btnDeposit, btnWithdraw, btnViewAll, btnClear;
     private String currentAccount = null;
 
-    // ✅ JDBC setup
+   
     private final String DB_URL = "jdbc:mysql://localhost:3306/bankdb";
     private final String DB_USER = "root";
-    private final String DB_PASS = "agadhk";
+    private final String DB_PASS = "###";
 
     public BankApp() {
         setTitle("🏦 Smart Bank Account Management");
